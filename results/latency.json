@@ -1,0 +1,81 @@
+{
+  "hands_bilstm": {
+    "model_ms_mean": 6.056001468095928,
+    "model_ms_p50": 5.927145481109619,
+    "model_ms_p95": 7.144731283187866,
+    "model_ms_std": 0.4965594518769191,
+    "window_frames": 64,
+    "params": 3260427,
+    "per_frame_amortized_ms": 0.09462502293899888,
+    "mediapipe_ms_mean": 15.407612107228488,
+    "mediapipe_ms_p95": 15.541314240545034,
+    "end_to_end_per_frame_ms": 15.502237130167487
+  },
+  "hands_transformer": {
+    "model_ms_mean": 2.955899531953037,
+    "model_ms_p50": 2.8781872242689133,
+    "model_ms_p95": 3.4474868560209866,
+    "model_ms_std": 0.2824051280667178,
+    "window_frames": 64,
+    "params": 2736395,
+    "per_frame_amortized_ms": 0.0461859301867662,
+    "mediapipe_ms_mean": 15.407612107228488,
+    "mediapipe_ms_p95": 15.541314240545034,
+    "end_to_end_per_frame_ms": 15.453798037415254
+  },
+  "hands_pose_bilstm": {
+    "model_ms_mean": 6.39069315046072,
+    "model_ms_p50": 6.3047080766409636,
+    "model_ms_p95": 7.265752577222883,
+    "model_ms_std": 0.48810342766013115,
+    "window_frames": 64,
+    "params": 3294219,
+    "per_frame_amortized_ms": 0.09985458047594875,
+    "mediapipe_ms_mean": 15.407612107228488,
+    "mediapipe_ms_p95": 15.541314240545034,
+    "end_to_end_per_frame_ms": 15.507466687704436
+  },
+  "hands_pose_transformer": {
+    "model_ms_mean": 2.8824416385032237,
+    "model_ms_p50": 2.8769373893737793,
+    "model_ms_p95": 3.0536440201103687,
+    "model_ms_std": 0.10913314997614972,
+    "window_frames": 64,
+    "params": 2770187,
+    "per_frame_amortized_ms": 0.04503815060161287,
+    "mediapipe_ms_mean": 15.407612107228488,
+    "mediapipe_ms_p95": 15.541314240545034,
+    "end_to_end_per_frame_ms": 15.4526502578301
+  },
+  "full_bilstm": {
+    "model_ms_mean": 6.535839345306158,
+    "model_ms_p50": 6.444770842790604,
+    "model_ms_p95": 7.521729893051088,
+    "model_ms_std": 0.5274197652834662,
+    "window_frames": 64,
+    "params": 3653643,
+    "per_frame_amortized_ms": 0.10212248977040872,
+    "mediapipe_ms_mean": 15.407612107228488,
+    "mediapipe_ms_p95": 15.541314240545034,
+    "end_to_end_per_frame_ms": 15.509734596998896
+  },
+  "full_transformer": {
+    "model_ms_mean": 3.186496631242335,
+    "model_ms_p50": 3.1517294701188803,
+    "model_ms_p95": 3.434944129548966,
+    "model_ms_std": 0.20930118681456114,
+    "window_frames": 64,
+    "params": 3129611,
+    "per_frame_amortized_ms": 0.04978900986316148,
+    "mediapipe_ms_mean": 15.407612107228488,
+    "mediapipe_ms_p95": 15.541314240545034,
+    "end_to_end_per_frame_ms": 15.45740111709165
+  },
+  "_environment": {
+    "platform": "macOS-26.3.1-arm64-arm-64bit",
+    "processor": "arm",
+    "python": "3.12.4",
+    "torch": "2.13.0",
+    "torch_threads": 4
+  }
+}

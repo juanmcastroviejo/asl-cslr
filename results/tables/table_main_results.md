@@ -1,0 +1,8 @@
+| run | features | head | params | val_WER | WER_greedy | WER_beam | sub | del | ins | sent_acc | latency_ms |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| hands_bilstm | hands | bilstm | 3,260,427 | 0.0000 | 0.0025 | 0.0017 | 0.0000 | 0.0008 | 0.0008 | 0.9933 | 6.1 |
+| hands_pose_bilstm | hands_pose | bilstm | 3,294,219 | 0.0025 | 0.0100 | 0.0100 | 0.0000 | 0.0091 | 0.0008 | 0.9600 | 6.4 |
+| hands_pose_transformer | hands_pose | transformer | 2,770,187 | 0.0092 | 0.0415 | 0.0398 | 0.0017 | 0.0240 | 0.0141 | 0.8467 | 2.9 |
+| full_bilstm | full | bilstm | 3,653,643 | 0.1091 | 0.0821 | 0.0804 | 0.0041 | 0.0697 | 0.0066 | 0.7400 | 6.5 |
+| hands_transformer | hands | transformer | 2,736,395 | 0.0491 | 0.1327 | 0.1310 | 0.0100 | 0.0207 | 0.1003 | 0.5733 | 3.0 |
+| full_transformer | full | transformer | 3,129,611 | 0.5329 | 0.5630 | 0.5506 | 0.1426 | 0.3997 | 0.0083 | 0.0967 | 3.2 |

@@ -1,0 +1,32 @@
+| run | length | n_phrases | WER | sentence acc |
+|---|---|---|---|---|
+| hands_bilstm | 2 | 65 | 0.0000 | 1.0000 |
+| hands_bilstm | 3 | 50 | 0.0000 | 1.0000 |
+| hands_bilstm | 4 | 57 | 0.0000 | 1.0000 |
+| hands_bilstm | 5 | 70 | 0.0029 | 0.9857 |
+| hands_bilstm | 6 | 58 | 0.0029 | 0.9828 |
+| hands_transformer | 2 | 65 | 0.1538 | 0.6923 |
+| hands_transformer | 3 | 50 | 0.1333 | 0.6400 |
+| hands_transformer | 4 | 57 | 0.1053 | 0.6316 |
+| hands_transformer | 5 | 70 | 0.1257 | 0.5286 |
+| hands_transformer | 6 | 58 | 0.1437 | 0.3793 |
+| hands_pose_bilstm | 2 | 65 | 0.0077 | 0.9846 |
+| hands_pose_bilstm | 3 | 50 | 0.0000 | 1.0000 |
+| hands_pose_bilstm | 4 | 57 | 0.0132 | 0.9474 |
+| hands_pose_bilstm | 5 | 70 | 0.0086 | 0.9571 |
+| hands_pose_bilstm | 6 | 58 | 0.0144 | 0.9138 |
+| hands_pose_transformer | 2 | 65 | 0.0154 | 0.9692 |
+| hands_pose_transformer | 3 | 50 | 0.0200 | 0.9400 |
+| hands_pose_transformer | 4 | 57 | 0.0526 | 0.7895 |
+| hands_pose_transformer | 5 | 70 | 0.0257 | 0.8714 |
+| hands_pose_transformer | 6 | 58 | 0.0632 | 0.6552 |
+| full_bilstm | 2 | 65 | 0.0538 | 0.8923 |
+| full_bilstm | 3 | 50 | 0.0933 | 0.7800 |
+| full_bilstm | 4 | 57 | 0.0482 | 0.8246 |
+| full_bilstm | 5 | 70 | 0.0714 | 0.6857 |
+| full_bilstm | 6 | 58 | 0.1149 | 0.5172 |
+| full_transformer | 2 | 65 | 0.4077 | 0.3692 |
+| full_transformer | 3 | 50 | 0.5200 | 0.0800 |
+| full_transformer | 4 | 57 | 0.5395 | 0.0175 |
+| full_transformer | 5 | 70 | 0.5829 | 0.0000 |
+| full_transformer | 6 | 58 | 0.5920 | 0.0000 |

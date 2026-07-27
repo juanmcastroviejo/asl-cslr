@@ -216,3 +216,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project-specific
+.DS_Store
+results/.DS_Store
+results/**/*.pt
+data/raw/
+data/synthetic/
