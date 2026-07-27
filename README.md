@@ -53,7 +53,7 @@ results/                    checkpoints, metrics, figures, tables
 Python 3.11 is required — MediaPipe does not publish wheels for every newer version.
 
 ```bash
-git clone <this-repo-url>
+git clone https://github.com/juanmcastroviejo/asl-cslr.git
 cd asl-cslr
 python3.11 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
